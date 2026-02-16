@@ -77,8 +77,8 @@ footer {
 }
 
 @media screen and (max-width: 510px) {
-    body {
-        overflow-x: hidden;
+    .joe {
+        width: 100%;
     }
 
     .box {
