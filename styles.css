@@ -1,0 +1,99 @@
+body {
+    background-color: #ffeac4;
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo-container {
+    border-bottom: 4px solid #fc0503;
+    padding: 15px 0 5px 0;
+    width: 100%;
+}
+
+.head {
+    font-family: 'Courier', monospace;
+    color: #fc0503;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    border: 4px solid #fc0503;
+    max-width: 800px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 270px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 30px;
+
+}
+
+.outside-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.your-order {
+    font-family: 'Courier' monospace;
+    color: #fc0503;
+    border-spacing: 15px;
+    margin: auto;
+    width: 85%;
+    border-collapse: separate;
+    padding-bottom: 10px;
+}
+
+.space {
+    padding-right: 100px;
+    font-family: 'Courier' monospace;
+}
+
+.elem {
+    text-align: center;
+    
+}
+
+footer {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 100px;
+    background-image: url('footer.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 510px) {
+    .box {
+        width: 95%;
+        padding: 15px 10px;
+    }
+    
+    .your-order {
+        border-spacing: 5px;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .space {
+        padding-right: 20px;
+    }
+    
+    .your-order th,
+    .your-order td {
+        padding: 4px 2px;
+    }
+}
