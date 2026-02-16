@@ -77,6 +77,10 @@ footer {
 }
 
 @media screen and (max-width: 510px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .box {
         width: 95%;
         padding: 15px 10px;
