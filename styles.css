@@ -77,8 +77,10 @@ footer {
 }
 
 @media screen and (max-width: 510px) {
-    .joe {
-        width: 100%;
+    .joe image {
+        max-width: 100%;
+        height: auto;
+        width: auto;
     }
 
     .box {
